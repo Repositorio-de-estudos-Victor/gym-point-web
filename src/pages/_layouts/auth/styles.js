@@ -19,6 +19,11 @@ export const Content = styled.div`
   border-radius: 4px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 
+  img {
+    height: 120px;
+    width: 150px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
@@ -30,7 +35,7 @@ export const Content = styled.div`
       border-radius: 4px;
       height: 44px;
       padding: 0 15px;
-      color: #fff;
+      color: #000;
       margin: 0 0 10px;
 
       &::placeholder {

@@ -3202,6 +3202,16 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
+date-fns-tz@^1.0.8:
+  version "1.0.8"
+  resolved "https://golhub.pkgs.visualstudio.com/_packaging/gol-npm/npm/registry/date-fns-tz/-/date-fns-tz-1.0.8.tgz#296809f745422aa28337fe4700607949623a6513"
+  integrity sha1-KWgJ90VCKqKDN/5HAGB5SWI6ZRM=
+
+date-fns@^2.8.1:
+  version "2.8.1"
+  resolved "https://golhub.pkgs.visualstudio.com/_packaging/gol-npm/npm/registry/date-fns/-/date-fns-2.8.1.tgz#2109362ccb6c87c3ca011e9e31f702bc09e4123b"
+  integrity sha1-IQk2LMtsh8PKAR6eMfcCvAnkEjs=
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
