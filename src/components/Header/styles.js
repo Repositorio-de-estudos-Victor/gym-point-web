@@ -7,7 +7,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   height: 64px;
-  max-width: 900px;
+  /* max-width: 900px; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -27,8 +27,16 @@ export const Content = styled.div`
 
     a {
       font-weight: bold;
-      color: rgba(0, 0, 0, 0.5);
+      color: #999;
       margin-left: 20px;
+
+      &:hover {
+        color: #000;
+      }
+
+      & + a {
+        margin-left: 20px;
+      }
     }
   }
 
@@ -42,7 +50,6 @@ export const Profile = styled.div`
   display: flex;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 1px solid #eee;
 
   div {
     text-align: right;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import { signOut } from '~/store/modules/auth/actions';
 
@@ -21,10 +21,18 @@ export default function Header() {
       <Content>
         <nav>
           <img src={logo} alt="GymPoint" />
-          <Link to="/Students">ALUNOS</Link>
-          <Link to="/Students">PLANOS</Link>
-          <Link to="/Students">MATRÍCULAS</Link>
-          <Link to="/Students">PEDIDOS DE AUXÍLIO</Link>
+          <NavLink to="/students" activeStyle={{ color: '#000' }}>
+            ALUNOS
+          </NavLink>
+          <NavLink to="/plans" activeStyle={{ color: '#000' }}>
+            PLANOS
+          </NavLink>
+          <NavLink to="/registrations" activeStyle={{ color: '#000' }}>
+            MATRICULAS
+          </NavLink>
+          <NavLink to="/help-orders" activeStyle={{ color: '#000' }}>
+            PEDIDOS DE AUXÍLIO
+          </NavLink>
         </nav>
 
         <aside>
